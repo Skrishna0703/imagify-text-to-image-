@@ -45,7 +45,7 @@ const BuyCredit = () => {
 
   const paymentRazorpay = async (planId) => {
     try {
-      if (!user) {
+       if (!user) {
         setShowLogin(true);
       }
 
