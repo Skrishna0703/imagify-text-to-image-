@@ -1,7 +1,8 @@
-import logo from './logo.svg'
+import logo1 from './logo1.png'
+import logo from './logo.png'
 import logo_icon from './logo_icon.svg'
 import facebook_icon from './facebook_icon.svg'
-import instagram_icon from './instagram_icon.svg'
+import instagram_icon from './instagram.svg'
 import twitter_icon from './twitter_icon.svg'
 import star_icon from './star_icon.svg'
 import rating_star from './rating_star.svg'
@@ -18,11 +19,15 @@ import cross_icon from './cross_icon.svg'
 import star_group from './star_group.png'
 import credit_star from './credit_star.svg'
 import profile_icon from './profile_icon.png'
+import linkedin from './linkedin.svg'
+import whatsapp from './whatsapp.svg'
+import gmail from './gmail.svg'
 import razorpay_logo from './razorpay_logo.png'
-import stripe_logo from './stripe_logo.png'
+
 
 export const assets = {
     logo,
+    logo1,
     logo_icon,
     facebook_icon,
     instagram_icon,
@@ -37,8 +42,10 @@ export const assets = {
     star_group,
     credit_star,
     profile_icon,
-    razorpay_logo,
-    stripe_logo
+    linkedin,
+    whatsapp,
+    gmail,
+    razorpay_logo
 }
 
 export const stepsData = [

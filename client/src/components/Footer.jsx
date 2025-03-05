@@ -1,18 +1,37 @@
-import React from 'react'
-import { assets } from '../assets/assets'
+import React from "react";
+import { assets } from "../assets/assets.js";
 
-const Footer = () => {
+export const Footer = () => {
   return (
-    <div className='flex items-center justify-between gap-4 py-3 mt-20'>
-        <img width={150} src={assets.logo} alt="" />
-        <p className='flex-1 border-l border-gray-400 pl-4 text-sm text-gray-500 max-sm:hidden'>Copyright @GreatStack.dev | All right reserved.</p>
-        <div className='flex gap-2.5'>
-            <img width={35} src={assets.facebook_icon} alt="" />
-            <img width={35} src={assets.twitter_icon} alt="" />
-            <img width={35} src={assets.instagram_icon} alt="" />
-        </div>
+    <div className="flex items-center justify-between gap-4 py-3 mt-20">
+      <img src={assets.logo} alt="" width={150} />
+      <p className="flex-1 border-l border-white pl-4 text-sm text-white max-sm:hidden">
+        Copyright @ShrikrishnaSutar.dev | All right Reserved.
+      </p>
+      <div className="flex gap-2.5 ">
+        <a
+          href="https://www.linkedin.com/in/shrikrishna-sutar-3b601524b"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={assets.linkedin} alt="LinkedIn" width={35} />
+        </a>
+        <a
+          href="https://wa.me/+91 9921939559"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={assets.whatsapp} alt="WhatsApp" width={35} />
+        </a>
+        <a
+          href="https://www.instagram.com/sutarshrikrishna/?igsh=N2QxbmoyaWhoeWNu"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={assets.instagram_icon} alt="Instagram" width={35} />
+        </a>
+      </div>
     </div>
-  )
-}
-
-export default Footer
+  );
+};
+export default Footer;
