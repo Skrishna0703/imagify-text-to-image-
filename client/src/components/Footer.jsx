@@ -9,21 +9,21 @@ export const Footer = () => {
         Copyright @ShrikrishnaSutar.dev | All right Reserved.
       </p>
       <div className="flex gap-2.5 ">
-        <a
+        <a className="hover:scale-105 transition-all duration-500"
           href="https://www.linkedin.com/in/shrikrishna-sutar-3b601524b"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={assets.linkedin} alt="LinkedIn" width={35} />
         </a>
-        <a
+        <a className="hover:scale-105 transition-all duration-500"
           href="https://wa.me/+91 9921939559"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={assets.whatsapp} alt="WhatsApp" width={35} />
         </a>
-        <a
+        <a className="hover:scale-105 transition-all duration-500"
           href="https://www.instagram.com/sutarshrikrishna/?igsh=N2QxbmoyaWhoeWNu"
           target="_blank"
           rel="noopener noreferrer"

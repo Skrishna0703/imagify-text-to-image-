@@ -42,7 +42,7 @@ const Header = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4, duration: 2 }}
             >
-                Turn text to <span className='text-blue-600'>image</span>, in seconds.
+                Turn text to <span className='text-orange-400'>image</span>, in seconds.
             </motion.h1>
 
             <motion.p
